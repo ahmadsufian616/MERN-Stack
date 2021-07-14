@@ -16,14 +16,14 @@ class PersonCard extends Component {
 
     render() {
         const { firstname, lastname, haircolor } = this.props;
-        return <div >
-            <
-            h1 > Name: { firstname } { lastname } < /h1>  <
-            p > Age: { this.state.clickAge } < /p> <
-            p > Hair color: { haircolor } < /p>  <
-            button onClick = { this.clickHandler } > Add to Age < /button>    <
-            /div>
-
+        return (
+        <div >    
+           < h1 > Name: { firstname } { lastname } </h1>  
+           < p > Age: { this.state.clickAge } </p> 
+           < p > Hair color: { haircolor } </p>  
+            <button onClick = { this.clickHandler }> Add to Age </button>    
+            </div>
+        );
     }
 
 

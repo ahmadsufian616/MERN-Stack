@@ -10,7 +10,7 @@ class PersonCard extends Component {
     }
     clickHandler = () => {
         this.setState({
-            clickAge: this.state.clickAge = this.state.clickAge + 1
+            clickAge: this.state.clickAge + 1
         })
     }
 

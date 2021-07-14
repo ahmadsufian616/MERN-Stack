@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <Big name="ahmad" age = {45} haircolor="black"/>
       <Big name="ali" age = {35} haircolor="black"/>
-      <Big name="abood" age = {50} haircolor="black"/>
+      <Big name="abood" age = {45} haircolor="black"/>
 
     </div>
   );

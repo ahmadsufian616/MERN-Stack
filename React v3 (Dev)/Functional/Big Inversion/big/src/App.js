@@ -1,14 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import mycom from './Components/Mycom';
+import Big from './Big';
+
 function App() {
   return (
     <div className="App">
-     
-<mycom name="Doe,jane" age="45" haircolor="brown"></mycom>
-<mycom name="smith,john" age="88" haircolor="black"/>
-<mycom name="fillmore,millard" age="50" haircolor="black"/>
-<mycom name="simth,maria" age="62" haircolor="brown"/>
+      <Big name="ahmad" age = {45} haircolor="black"/>
+      <Big name="ali" age = {35} haircolor="black"/>
+      <Big name="abood" age = {50} haircolor="black"/>
 
     </div>
   );

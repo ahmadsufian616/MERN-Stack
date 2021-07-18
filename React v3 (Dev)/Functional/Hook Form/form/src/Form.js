@@ -112,7 +112,7 @@ const Form = (props) => {
                 </div>
                 <div>
                     <label>Password:</label>
-                    <input type="password" onChange={handlePassword}/>
+                    <input type="password   " onChange={handlePassword}/>
                     {
                     passwordError ?
                     <p style={{color:'red'}}>{ passwordError }</p> :

@@ -40,7 +40,8 @@ const newcompany= new Company();
 
 
 app.get("/api/user", (req, res) => {
-  res.json(`fisrt name: ${newuser.First_name} last name:  ${newuser.Last_name} phone: ${newuser.phoneNumber} email: ${newuser.email} ` );
+  res.json(`name: ${newuser.First_name} last name:  ${newuser.Last_name} phone: ${newuser.phoneNumber} email: ${newuser.email} ` );
+  // res.json(new User());
 });
 
 

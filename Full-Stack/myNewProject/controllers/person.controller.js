@@ -1,4 +1,3 @@
-const { request, response } = require('express');
 const { Person } = require('../models/person.model');
 module.exports.index = (request, response) => {
     response.json({

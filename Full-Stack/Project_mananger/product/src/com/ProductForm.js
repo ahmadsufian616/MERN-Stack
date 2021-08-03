@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import axios from 'axios';
-export default () => {
+export default (props) => {
 
     const [title, setTitle] = useState(""); 
     const [price, setPrice] = useState("");
@@ -10,7 +10,7 @@ export default () => {
       
         e.preventDefault();
        
-        axios.post('http://localhost:8000/api/product', {
+        axios.post('http://localhost:8000/api/product'+props.id, {
             title,
             price,
             desc
